@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&effect=neon|outline|emboss|shadow-multiple|fire-animation");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+.material{
+    width: 100%;
+    height: 0.00000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.h1 {
+    color: white;
+    background-color: #e00909e8;
+    border: 5px solid white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+body { background:linear-gradient(to right, black, black);
+    color: white;
+    
+}
+
+
+.informaciongeneral{
+    background-color:#8B0000;
+    border: 3px solid white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.resumenenvideo{
+    background-color:#8B0000;
+    border: 3px solid white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.jugabilidad{
+    background-color: #8B0000;
+    border: 3px solid white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.requisitos{
+    background-color: #8B0000;
+    border: 3px solid white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.masdatos{
+    background-color: #8B0000;
+    border: 3px solid white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.contenidomasdescargablepistas{
+    background-color: rgb(7, 7, 102);
+    border: 3px solid white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contenidomasdescargablevehiculos{
+    background-color: rgb(7, 7, 102);
+    border: 3px solid white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.modypistas{
+    background-color: #3131c0;
+    border: 6px solid white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.elsimracing{
+    background-color: #286e28;
+    border: 3px solid white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.volantesysoportescalidadprecio{
+    background-color: green;
+    border: 6px solid white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+}
+.soportescalidadprecio{
+    background-color: #286e28;
+    border: 3px solid white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*NAVEGADOR CON ENLACES*/
+.navegador{
+    background-color: rgb(0, 0, 0);
+}
+nav ul{
+display: flex;
+justify-content: flex-start;
+}
+
+nav ul li{
+    margin: 0 43px;
+}
+nav ul li a {
+text-decoration: none;
+color: white;
+font-weight: bold;
+transition: color 0.5s;
+}
+nav ul li a:hover{
+    color: rgb(255, 0, 0);
+}
+nav{
+    display: grid;
+    grid grid-template-columns: 1fr auto;
+    align-items:center;
+    position: fixed;
+    width:100%;
+    height:50px;  
+    top:0;
+}
+ 
+
+
+/*FORMULARIO*/
+.formulario1{
+    margin: 150px;
+    outline: none;
+    display: flex;
+}
+label {
+    display: inline-block;
+    width: 100px;
+}
+input:required[type="text"],input[type="number"]{
+    border: dotted;
+    color: black;
+    width: 500px;
+}
+
+
+#identi:disabled{
+    background-color: red;
+}
+
+input[type="submit"]{
+    width: 100px;
+    height: 100px;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    margin: 0 auto;
+    justify-items: center;
+    display: flex;
+}
